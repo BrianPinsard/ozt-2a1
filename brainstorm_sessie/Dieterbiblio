@@ -1,0 +1,26 @@
+% Encoding: UTF-8
+
+@MastersThesis{AnaninMaxim2013,
+  author = {Ananin, Maxim},
+  title =  {MSP430 microcontroller gebaseerde draadloze interface voor quadcopters},
+  school = {Hogeschool Gent : SCHOO},
+  year =   {2013},
+  type =   {bachelorproef},
+  file =   {AnaninMaxim2013:C\:\\Users\\dieter\\AnaninMaxim2013.pdf:PDF}
+}
+
+@MastersThesis{CosmanAlexander2011,
+  author = {Cosman, Alexander},
+  title =  {Unified video Streaming},
+  school = {Hogeschool Gent},
+  year =   {2011},
+  file =   {CosmanAlexander2011:C\:\\Users\\dieter\\CosmanAlexander2011.pdf:PDF}
+}
+
+@MastersThesis{JensDeGroodt2013,
+  author = {Jens, De Groodt},
+  title =  {Veiligheid van persoonlijke gegevens op smartphones},
+  school = {Hogeschool gent},
+  year =   {2013},
+  file =   {JensDeGroodt2013:C\:\\Users\\dieter\\JensDeGroodt2013.pdf:PDF}
+}
