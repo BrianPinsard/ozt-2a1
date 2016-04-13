@@ -1,0 +1,19 @@
+# Benchmark tools
+
+## CPU
+ - CPU-Z
+ - Intel Burn Test
+ - HWMonitor
+ - Super Pi Mod
+
+### Workflow
+Open CPU-Z and HWMonitor, run Super Pi Mod at 1M setting, then run IBT for >30 runs on the High setting, have CPU-Z and HWMonitor open along side it and screen cap it with the success window open upon completion of the >30 runs.
+
+## GPU
+ - Unigine Heaven Benchmark
+ - Unigine Valley Benchmark
+ - 3DMark11
+ - Furmark
+
+## General purpose
+ - UserBenchmark
