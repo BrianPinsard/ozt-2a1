@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Article
+% LaTeX Template
+% Version 2.1 (1/10/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% Adaptation: Jens Buysse
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[fleqn,10pt]{voorstel}
+
+\usepackage[english,dutch]{babel}
+
+\usepackage{lipsum}
+
+\setlength{\columnsep}{0.55cm} % Distance between the two columns of text
+\setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
+
+%----------------------------------------------------------------------------------------
+%	COLORS
+%----------------------------------------------------------------------------------------
+
+\definecolor{color1}{RGB}{0,111,184} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+\usepackage{hyperref} % Required for hyperlinks
+\hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=color1,citecolor=color2,linkcolor=color2,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\JournalInfo{Hogeschool Gent} % Journal information
+\Archive{Onderzoekstechnieken 2015 - 2016} % Additional notes (e.g. copyright, DOI, review/research article)
+
+\PaperTitle{Vergelijkende studie van 3D capaciteiten bij studenten laptops met betrekking tot virtual reality} % Article title
+
+\Authors{Brian Pinsard, Jovi De Croock, Thomas Vansevenant, Dieter Willems} % Authors
+%\affiliation{} % Author affiliation
+
+\Keywords{Keyword1 --- Keyword2 --- Keyword3} % Keywords 
+\newcommand{\keywordname}{Keywords} % Defines the keywords heading name
+
+
+\Abstract{Tekst...
+
+Tekst....
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+
+\maketitle % Print the title and abstract box
+
+\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introductie} % The \section*{} command stops section numbering
+Tekst...
+
+%------------------------------------------------
+
+\section{State-of-the-art}
+Tekst...
+
+%------------------------------------------------
+
+\section{Methode van aanpak}
+Tekst...
+
+\section{Resultaten}
+Tekst...
+
+\section{Conclusies}
+Tekst...
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+\phantomsection
+\bibliographystyle{apa}
+\bibliography{biblio}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

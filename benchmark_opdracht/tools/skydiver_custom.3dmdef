@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<benchmark>
+
+  <application_info>
+    <selected_workloads>
+        <selected_workload name="SkyDiverGt1P" preset="default"/>
+        <selected_workload name="SkyDiverGt2P" preset="default"/>
+        <selected_workload name="SkyDiverPhysicsP" preset="default"/>
+        <selected_workload name="SkyDiverCombinedP" preset="default"/>
+    </selected_workloads>
+  </application_info>
+
+  <settings>
+    <setting>
+        <name>enable_systeminfo_monitor</name>
+        <value>1</value>
+    </setting>
+    <setting>
+        <name>enable_systeminfo_collect</name>
+        <value>1</value>
+    </setting>
+  </settings>
+
+</benchmark>
