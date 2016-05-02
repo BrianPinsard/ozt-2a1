@@ -1,11 +1,11 @@
 \subsection{Keuze van software}
-Na we onze onderzoeksvraag afgebakend hadden, zijn we ons onderzoek gestart met het zoeken van tools die beschikbaar zijn voor het testen van de visuele capaciteiten van een computer. Hierbij sprongen de volgende benchmarking tools uit: FurMark{link}, Unigine{link} en 3DMark{link}.
+Na we onze onderzoeksvraag afgebakend hadden, zijn we ons onderzoek gestart met het zoeken van tools die beschikbaar zijn voor het testen van de visuele capaciteiten van een computer. Hierbij sprongen de volgende benchmarking tools uit: FurMark, Unigine en 3DMark.
 
 \subsubsection{Furmark}
 Furmark is een zeer intensieve OpenGL benchmark die vooral als stabiliteit en stress test gebruikt word, hierbij word grafische kaart tot zijn uiterste geduwd en kan deze oververhitten. Dit was dus toch geen correcte tool voor onze doeleinden. \citep{furmark}
 
 \subsubsection{3DMark vs Unigine}
-Tussen 3DMark en Unigine hebben we gekozen om 3DMark te gebruiken als benchmarking tool. De reden hiertoe is dat 3DMark een zeer bekende tool is en tegenwoordig er ook een gratis versie beschikbaar is via het Steam platform{link}, dit heeft ervoor gezorgd dat ieder groepslid de zelfde versie van 3DMark geinstalleerd staan had.
+Tussen 3DMark en Unigine hebben we gekozen om 3DMark te gebruiken als benchmarking tool. De reden hiertoe is dat 3DMark een zeer bekende tool is en tegenwoordig er ook een gratis versie beschikbaar is via het Steam platform, dit heeft ervoor gezorgd dat ieder groepslid de zelfde versie van 3DMark geinstalleerd staan had.
 
 \subsubsection{3DMark}
 3DMark bevat verscheidene benchmarks die elk gericht zijn op een specifieke klasse van hardware dit varieert van smartphones tot gaming computers. Deze benchmarks worden gebruikt door honderden hardware review websites en verscheidene van de hardware fabrikanten.\\\\
@@ -44,7 +44,7 @@ Deze test is een combinatie van de tweede grafische test en het derde level van 
 \subsection{Workflow}
 We hebben gekozen om de bovenstaande vier testen op ieder groepslid zijn laptop 30 keer te laten draaien, het formaat waarin 3DMark standaard de resultaten exporteerd is helaas niet bruikbaar aangezien we de resultaten er niet kunnen uit halen. Hier door hebben we gebruik moeten maken van de command line tools om de resultaten te exporteren naar een bestand van het XML formaat, dit bestand was simpel te converteren met een zelf geschreven Java programma naar een bestand van het XLS formaat zodat we met de resultaten konden beginnen werken.
 
-\subsubsection{Skydiver benchmark via command line}
+\subsubsection{Benchmark via command line}
 Voor de benchmark via command line te laten draaien hebben we allereerst een custom XML setting bestand aangemaakt waarin de testen worden aangegeven die gedraaid moeten worden en er ook ingesteld word dat de benchmark systeem info moet verzamelen. Hiervoor hebben we onderstaand commando gebruikt:
 \begin{lstlisting}
 3DMarkCmd.exe --definition=skydiver_custom.3dmdef --export=skydiver_naam.xml --loop=30
