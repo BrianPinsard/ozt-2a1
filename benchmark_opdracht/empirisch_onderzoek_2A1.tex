@@ -23,7 +23,7 @@
 \usepackage[english,dutch]{babel}
 
 \usepackage{lipsum}
-
+\usepackage{listings}
 \setlength{\columnsep}{0.55cm} % Distance between the two columns of text
 \setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
 
@@ -33,6 +33,23 @@
 
 \definecolor{color1}{RGB}{0,111,184} % Color of the article title and sections
 \definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+\lstset{frame=tb,
+	language=Command.com,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{gray},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
 
 \usepackage{natbib}
 \usepackage{hyperref} % Required for hyperlinks
@@ -86,7 +103,7 @@ Tekst...
 %------------------------------------------------
 
 \section{Methode van aanpak}
-Tekst... \citep{3dmark_cmd} \citep{3dmark_tech} \citep{3dmark_light}
+\input{methode_van_aanpak}
 
 \section{Resultaten}
 Tekst...
