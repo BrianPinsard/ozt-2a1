@@ -23,7 +23,7 @@ De tweede grafische test focust zich op pixel processing en gebruikt een compute
 %\[Sgraphics = 219 \times \frac{2}{\frac{1}{Fgt1}+\frac{1}{Fgt5}}\]
 %Waar Fgt1 de gemiddelde fps van de eerste grafische test is en Fgt2 de gemiddelde fps van de tweede grafische %test. Zoals beschreven door \cite{3dmark_tech}
 
-\subsubsection{Physics test}
+\subsubsection{Physics test} \label{sec-moa-phys}
 Terwijl de grafische testen vooral de GPU zullen belasten en testen, zal de physics test de CPU testen door 96 standbeelden als objecten neer te slaan met een hamer. Deze hamers hangen vast aan kettingen waardoor de CPU immens veel zal moeten bereken zoals hoe de hamers moeten zwaaien en wanneer de hamers een standbeeld raken hoe de stukken van het standbeeld moeten vliegen. Deze 96 standbeelden worden verdeeld over 4 levels, elk level worder er significant meer standbeelden tegelijk gevisualiseerd en geraakt door één van de hamers, zodat de CPU naarmate de tijd verstrijkt meer zal moeten verwerken. \citep{3dmark_tech}
 
 %De physics score is een gewogen gemiddelde van de twee levels die het best gelukt zijn volgens deze formule:
