@@ -41,7 +41,7 @@ Deze test is een combinatie van de tweede grafische test en het derde level van 
 %\end{description}
 %Zoals beschreven door \cite{3dmark_tech}
 
-\subsection{Workflow}
+\subsection{Workflow}\label{moa-workflow}
 We hebben gekozen om de bovenstaande vier testen op ieder groepslid zijn laptop 30 keer te laten draaien, het formaat waarin 3DMark standaard de resultaten exporteerd is helaas niet bruikbaar aangezien we de resultaten er niet kunnen uit halen. Hier door hebben we gebruik moeten maken van de command line tools om de resultaten te exporteren naar een bestand van het XML formaat, dit bestand was simpel te converteren met een zelf geschreven Java programma naar een bestand van het XLS formaat zodat we met de resultaten konden beginnen werken.
 
 \subsubsection{Benchmark via command line}
@@ -58,4 +58,4 @@ java -jar 3dmark_results_converter.jar skydiver_naam.xml
 Waar skydiver\_naam.xml het input bestand is, na dit commando uit te voeren zal het programma vragen om een output bestandsnaam te geven. Het XLS bestand met de resultaten wordt nadien gegenereerd.
 
 \subsubsection{Vergelijking van de resultaten}
-Bij ieder groepslid zijn resultaten worden de gemiddelden genomen van iedere test zijn 30 testresultaten en deze worden dan verder gebruikt voor...
+Bij ieder groepslid zijn de gemiddelden genomen van 30 resultaten per test welke opgehaald zijn via de workflow die beschreven staat in sectie~\ref{moa-workflow}. Hier zijn er grafieken van gemaakt met de bevindingen die u kan vinden in sectie~\ref{resul}.
